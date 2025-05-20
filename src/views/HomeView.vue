@@ -2,6 +2,9 @@
   <div class="home">
     <h1> {{ displayText }}</h1>
   </div>
+  <video autoplay muted loop id="myVideo">
+      <source src="/src/assets/cabin-2.mp4" type="video/mp4">
+    </video>
 </template>
 
 <script>
@@ -49,6 +52,28 @@ export default defineComponent ({
 
 <style scoped>
   .home {
+    position: absolute;
     font-family: 'tiny5';
+    z-index: 1;
+    min-width: 15dvw;
+    top: 20dvh;
+    text-align: center;
+    opacity: 1;
+    border-radius: 5px;
+  }
+
+  h1 {
+    font-family: 'tiny5';
+    font-size: 70px;
+    color: white;
+    opacity: 1;
+  }
+
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100dvw;
+    min-height: 100dvh;
   }
 </style>
