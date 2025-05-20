@@ -39,7 +39,7 @@ export default defineComponent ({
     src: url('@/assets/Tiny5-Regular.ttf');
 }
 .dark {
-  background-color: #292929;
+  background-color: #12111F;
   color: white;
   transition: 0.3s;
 }

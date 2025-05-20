@@ -77,7 +77,7 @@ export default defineComponent({
     }
 
     .dark {
-        background: #292929;
+        background: #12111F;
         color: white;
         transition: 0.3s;
     }
@@ -94,12 +94,13 @@ export default defineComponent({
         align-items: center;
         cursor: pointer;
         padding: 1px;
-        margin: 10px;
+        margin: 0px;
         border-radius: 5px;
+        width: 100%;
     }
 
     .dark .nav-item:hover {
-        background: #414141;
+        background: #3A3763;
         transition: 0.3s;
     }
 
@@ -125,7 +126,7 @@ export default defineComponent({
     }
 
     .dark hr.solid {
-        border: 1px solid #3d3d3d;
-        color: #3a3a3a;
+        border: 1px solid #2A2847;
+        color: #3A3763;
     }
 </style>

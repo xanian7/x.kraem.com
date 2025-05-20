@@ -43,6 +43,7 @@ export default defineComponent({
     box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
     left: 0;
     z-index: 10;
+    opacity: 0.9;
 }
 
 .toggle-button {
