@@ -19,7 +19,7 @@ export default defineComponent ({
   },
   
   setup() {
-    const isDarkMode = ref(false);
+    const isDarkMode = ref(true);
     const isNavOpen = ref(false);
     provide('isDarkMode', isDarkMode);
     provide('isNavOpen', isNavOpen);

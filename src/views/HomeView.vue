@@ -67,6 +67,9 @@ export default defineComponent ({
     font-size: 70px;
     color: white;
     opacity: 1;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
   }
 
   #myVideo {
